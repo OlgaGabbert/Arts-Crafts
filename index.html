@@ -4,26 +4,64 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Test</title>
+        <title>Dasmoto's Arts & Crafts</title>
         <link rel="stylesheet" href="./resources/css/index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        <!-- Banner section -->
-        <div class='banner'>
-            <h1>Olga Gabbert</h1>
-            <img id="small-profile" src="./resources/images/image.jpg" alt="my-profile-picture">
-            <p>🐣 web developer</p>
-            <button>Get to know me better</button>
-        </div>
+        <div class="container-fluid">
 
-        <!-- Goals section -->
-        <div class='goals'>
-            <p>My goals include:</p>
-            <ul>
-            <li>Learn to code</li>
-            <li>Start a company</li>
-            <li>Help the world</li>
-            </ul>
-        </div>
+            <!-- Banner section -->
+            <div class='banner' style="background-image: url(./resources/images/pattern.jpg); box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;">
+                <h1>Dasmoto's Arts & Crafts</h1>
+            </div>
 
+            <!-- article -->
+            <div class="article"> 
+
+                <!-- Brushes section -->
+                <div class='brushes'>
+                    <h2 class='title' id='brush'>Brushes</h2>
+                    <img src="./resources/images/hacksaw.jpg" alt="hacksaw brush" class="img-thumbnail">
+                    <p style='font-weight: bold;'>Hacksaw Brushes</p>
+                    <p>Made of the highest quality oak, 
+                    Hacksaw brushes are known for their weight and ability to hold paint in large amounts. 
+                    Available in different sizes. <span class='price'>Starting at $3.00 / brush.</span></p>
+                </div>
+
+                <!-- Frames section -->
+                <div class='frames'>
+                    <h2 class='title' id='frame'>Frames</h2>
+                    <img src="./resources/images/frames.jpg" alt="art-frames" class="img-thumbnail">
+                    <p style='font-weight: bold;'>Art Frames (assorted)</p>
+                    <p>Assorted frames made of different material, including MDF, birchwood, and PDE. 
+                    Select frames can be sanded and painted according to your needs. 
+                    <span class='price'>Starting at $2.00 / frame.</span></p>
+                </div>
+
+                <!-- Paint section  -->
+                <div class='paint'>
+                    <h2 class='title' id='paint'>Paint</h2>
+                    <img src="./resources/images/finnish.jpg" alt="art-frames" class="img-thumbnail">
+                    <p style='font-weight: bold;'>Clean Finnish Paint</p>
+                    <p>Imported paint from Finland. Over 256 colors available in-store, 
+                    varying in quantity (1 oz. to 8 oz.). 
+                    Clean Finnish paint microbinds to canvas, 
+                    increasing the finish and longevity of any artwork.
+                    <span class='price'>Starting at $5.00 / tube.</span></p>
+                </div>
+            </div>
+            <!-- end of article  -->
+           
+            <!-- Footer -->
+            <div class='footer' >
+                <p>Mady with ❤️ by Olga</p>
+            </div>
+
+        </div> 
+        <!-- end of container  -->
+    </body>
 </html>
